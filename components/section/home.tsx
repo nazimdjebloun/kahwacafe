@@ -7,7 +7,7 @@ export default function HomeSection() {
       <div className="h-[100%] p-5 flex  justify-center items-center ">
         <Image
           unoptimized
-          src="/images/coffee/coffee1.png"
+          src="/images/coffee/coffee1.PNG"
           width={500}
           height={500}
           className="rounded-xl rotate-6 transform transition-transform hover:scale-[1.05] duration-200"
@@ -33,7 +33,7 @@ export default function HomeSection() {
       <div className="h-[100%] p-5 flex justify-between flex-col gap-20 ">
         <Image
           unoptimized
-          src="/images/coffee/coffee2.png"
+          src="/images/coffee/coffee2.PNG"
           width={500}
           height={500}
           className="rounded-xl rotate-350 transform transition-transform hover:scale-[1.05] duration-200"
@@ -41,7 +41,7 @@ export default function HomeSection() {
         />
         <Image
           unoptimized
-          src="/images/coffee/coffee3.png"
+          src="/images/coffee/coffee3.PNG"
           width={500}
           height={500}
           className="rounded-xl rotate-10 transform transition-transform hover:scale-[1.05] duration-200"
