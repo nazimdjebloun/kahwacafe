@@ -1,36 +1,9 @@
 "use client";
 import { Clock, MapPin, Phone } from "lucide-react";
-import Image from "next/image";
 import React from "react";
 
 export default function Footer() {
   return (
-    // <div className="w-full h-full">
-    //   <footer
-    //     className="w-full bg-cover bg-center relative"
-    //     style={{ backgroundImage: `url('/images/coffee/storefront.PNG')` }}
-    //   >
-    //     {/* Overlay (optional for darker effect) */}
-    //     <div className="absolute inset-0 bg-black/40 " />
-
-    //     {/* Glass card */}
-    //     <div className="relative z-10 max-w-4xl mx-auto px-4 py-12 flex justify-center">
-    //       <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl shadow-lg p-6 md:p-10 text-center text-white w-full">
-    //         <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-    //           Visit KΛHWΛ CΛFE
-    //         </h2>
-    //         <p className="text-lg md:text-xl mb-6">
-    //           More than just coffee – it's a place where stories begin, and
-    //           comfort is brewed daily.
-    //         </p>
-    //         <p className="text-sm opacity-75">
-    //           © {new Date().getFullYear()} KΛHWΛ CΛFE. All rights reserved.
-    //         </p>
-    //       </div>
-    //     </div>
-    //   </footer>
-    // </div>
-
     // <section
     //   id="contact"
     //   className="py-16 md:py-24 w-full"

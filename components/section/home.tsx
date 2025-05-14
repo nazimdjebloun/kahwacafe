@@ -1,7 +1,5 @@
 "use client";
 import React from "react";
-import Logo from "@/components/logo";
-import Logo1 from "@/components/logos/logo1.svg";
 import Image from "next/image";
 export default function HomeSection() {
   return (
@@ -17,9 +15,11 @@ export default function HomeSection() {
         />
       </div>
       <div className="w-full flex flex-col justify-center items-center  text-center p-0 ">
-        <img
+        <Image
           src="/fullLogo.svg"
           alt="Logo"
+          width={500}
+          height={500}
           className="w-[40%] rotate-90 md:w-[30%] bg-black dark:bg-background rounded-4xl p-5"
         />
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">

@@ -1,12 +1,11 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import { Coffee, Menu, X } from "lucide-react";
-import Link from "next/link";
+
 import ModeToggle from "@/components/theme/theme-switch";
 import Navbar from "@/components/header/navbar";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {

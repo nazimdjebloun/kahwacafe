@@ -1,7 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import ModeToggle from "@/components/theme/theme-switch";
+
 import HomeSection from "@/components/section/home";
 import CoffeeSection from "@/components/section/coffee";
 import Footer from "@/components/section/footer";

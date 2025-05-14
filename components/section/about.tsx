@@ -124,27 +124,6 @@ export default function About() {
         </div>
       </motion.div>
 
-      {/* Divider */}
-      {/* <div className="flex items-center justify-center my-8">
-        <div className="h-px w-16 bg-amber-700/30"></div>
-        <div className="mx-4">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="text-amber-700"
-          >
-            <path
-              d="M12 8C10.9 8 10 7.1 10 6C10 4.9 10.9 4 12 4C13.1 4 14 4.9 14 6C14 7.1 13.1 8 12 8ZM12 10C14.21 10 16 8.21 16 6C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6C8 8.21 9.79 10 12 10ZM18.39 12.56C16.71 11.7 14.53 11 12 11C9.47 11 7.29 11.7 5.61 12.56C4.61 13.07 4 14.1 4 15.22V22H6V15.22C6 14.84 6.2 14.5 6.5 14.34C7.71 13.73 9.63 13 12 13C14.37 13 16.29 13.73 17.5 14.34C17.8 14.5 18 14.84 18 15.22V22H20V15.22C20 14.1 19.39 13.07 18.39 12.56Z"
-              fill="currentColor"
-            />
-          </svg>
-        </div>
-        <div className="h-px w-16 bg-amber-700/30"></div>
-      </div> */}
-
       {/* Second Section - Customer Service */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
