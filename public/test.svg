@@ -1,0 +1,28 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="300" fill="#49120F" />
+  
+  <!-- Logo Mark -->
+  <g transform="translate(300, 80)" fill="#CD7A3E">
+    <ellipse cx="0" cy="0" rx="30" ry="45" stroke="#CD7A3E" stroke-width="2.5" fill="none" />
+    <!-- Vertical lines -->
+    <line x1="-10" y1="-35" x2="-10" y2="35" stroke="#CD7A3E" stroke-width="2.5" />
+    <line x1="10" y1="-35" x2="10" y2="35" stroke="#CD7A3E" stroke-width="2.5" />
+    <!-- Diagonal lines -->
+    <line x1="-10" y1="0" x2="-25" y2="-20" stroke="#CD7A3E" stroke-width="2.5" />
+    <line x1="-10" y1="0" x2="-25" y2="20" stroke="#CD7A3E" stroke-width="2.5" />
+    <line x1="10" y1="0" x2="25" y2="-20" stroke="#CD7A3E" stroke-width="2.5" />
+    <line x1="10" y1="0" x2="25" y2="20" stroke="#CD7A3E" stroke-width="2.5" />
+    <!-- Small dot -->
+    <circle cx="16" cy="0" r="2" fill="#CD7A3E" />
+  </g>
+  
+  <!-- Main Text -->
+  <text x="300" y="175" font-family="Times New Roman, serif" font-size="45" text-anchor="middle" fill="#CD7A3E" letter-spacing="8">KΛHWΛ CΛFE</text>
+  
+  <!-- Raw Text -->
+  <text x="245" y="205" font-family="Brush Script MT, cursive" font-size="32" fill="#CD7A3E" font-style="italic">Raw</text>
+  
+  <!-- Bottom Line -->
+  <line x1="150" y1="240" x2="450" y2="240" stroke="#CD7A3E" stroke-width="1.5" />
+</svg>
